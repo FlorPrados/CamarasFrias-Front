@@ -1,0 +1,42 @@
+
+footer {
+    background-color: #912727;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer section {
+    float:right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color:rgb(231, 206, 206)
+}
+footer a:hover {
+    color:rgb(137, 153, 243)
+}
+ 
+
+/* PAGINA PRODUCTOS */
+form {
+    font-size: xx-large;
+}
+form label:hover{
+    color:rgb(121, 0, 0)
+}
+
+
+
+/* RECOURSES
+https://fonts.google.com 
+
+https://www.youtube.com/@BastianAndresWeb/videos
+
+
+*/

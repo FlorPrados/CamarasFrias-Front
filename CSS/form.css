@@ -1,0 +1,21 @@
+form label, input{
+    display: block;
+    font-size: 25px;
+    margin: 0.2px 0; /* Espacio entre elementos */
+    width: 50%; /* El ancho es el 50% del contenedor */
+    max-width: 400px; /* Establece un ancho máximo */
+}
+
+form button{
+    font-size: 25px;
+    width: 20vw;
+}
+
+input:hover, form button:hover, textarea:hover {
+    background-color: rgb(255, 241, 241);
+}
+
+textarea{
+    font-size: xx-large;
+    resize: none;
+}

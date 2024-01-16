@@ -1,0 +1,103 @@
+*{ box-sizing: border-box;
+}
+
+html{
+    font-family: 'Itim', cursive;
+}
+
+body {
+    color:rgb(0, 0, 0);
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/* Ajusta el contenido principal para ocupar el espacio restante. */
+main {flex: 1;}
+
+header{background-color: #ececec;}
+
+#logo {font-size: 0.5rem;}
+
+ nav table{
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+ }
+
+
+table a{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 300ms;
+    position: relative;
+}
+
+table a:hover{
+    color:rgb(255, 226, 226);
+    font-size: xx-large;
+    transition: 0.3s ease, color 0.9s ease;
+}
+
+
+table {
+    margin: 2rem;
+    width: 30%;  /*indico que la tabla ocupa el 50% de la pagina web*/
+    border-collapse: collapse;
+    background-color: rgb(102, 31, 31);
+}
+th, td {
+    border: solid 0.01em rgb(102, 32, 32);
+    padding: 0.9em;
+}
+
+th {
+    background-color: rgb(221, 50, 50);
+}
+ 
+td {
+    cursor: pointer;
+    text-align: center;
+}
+tr:nth-child(even) {      /*Selecciona las celdas inpares*/
+    background-color:rgb(255, 237, 237); ;
+}
+
+
+section article {    /* para agrandar las secciones cuando pasemos mouse. Aca indico velocidad*/
+    transition: all 300ms;
+}
+section article:hover {
+    box-shadow: 0 0.5rem 0.6rem rgb(128, 128, 128);
+    /*cuanto se desplazará la sombra: hacia la derecha, abajo, cuanta difuminacion y color*/ 
+}
+
+
+img, video {
+    display: block;
+    margin: auto;
+    width: 37em;
+    }
+
+#imgfront { 
+    height: 25em;
+}
+
+.secciones {     /*centrando las secciones. El punto denota la clase*/
+    width: 120em;
+    margin: 0 auto;
+}
+
+section article {
+    background-color: rgb(247, 247, 247);
+    margin: 1rem 0;    /* primer rem vertical, 2 horizontal */
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;    /*separo un poco el titulo con el borde que hice de c/articulo*/
+
+}
+
+section article h2, section article p, section article h4{
+    margin: 1rem;
+}

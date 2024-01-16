@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+
+    <title>Camaras Frias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/camara.ico">
+    <link rel="stylesheet" href="../../CSS/style.css" /> 
+    <link rel="stylesheet" href="../../CSS/footer.css" /> 
+    <link rel="stylesheet" href="../../CSS/product.css" /> 
+
+    <script src="https://kit.fontawesome.com/11a316946f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>  <!-- CABECERA. Para agrupar links, logos de our page, y podemos utilizar cuantas queramos-->
+
+        <img Id="logo" src="../../img/logo.png"/>    <!-- Id="titulo" para luego poder interactuar con esto. dar un diseño por ej--> 
+        <!-- en vez de id, puedo utlizar el atributo class para poder reutilizar ese identificador para seleccionar varias partes  
+        con CSS o JS y poder modificar-->
+        <nav>
+            <table>
+                <tr>
+                    <th><a href="../index.html"><div>Inicio</div></a></th>
+                    <th><a href="productos.html"><div>Productos</div></a></th>
+                    <th><a href="quienessomos.html"><div>¿Quiénes somos?</div></a></th>
+                    <th><a href="informacion.html"><div>Información</div></a></th>
+                    <th><a href="micuenta.html"><div>Mi cuenta</div></a></th>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <section class="secciones">
+            <!-- Página de categorías -->
+            <article class="articulo">
+                <h2><u>TIENDA CÁMARAS FRIAS</u></h2>
+                <section class="categorias">
+                    <!-- Categoría 1: Cámaras -->
+                    <div class="categoria">
+                        <img src="../../img/Camaras/camara.png" alt="Cámaras">
+                        <h4>Cámaras</h4>
+                        <p>Descubre nuestra selección de cámaras de alta calidad.</p>
+                        <a href="Productos/camaras.html">Ver productos</a>
+                    </div>
+    
+                    <!-- Categoría 2: Accesorios -->
+                    <div class="categoria">
+                        <img src="../../img/Camaras/accesorios.png" alt="Accesorios">
+                        <h4>Accesorios</h4>
+                        <p>Encuentra los accesorios perfectos para tu equipo.</p>
+                        <a href="productos.html?categoria=accesorios">Ver productos</a>
+                    </div>
+    
+                    <!-- Categoría 3: Alarmas -->
+                    <div class="categoria">
+                        <img src="../../img/Camaras/alarmas.png" alt="Alarmas">
+                        <h4>Alarmas</h4>
+                        <p>Protege tu propiedad con nuestras alarmas de seguridad.</p>
+                        <a href="productos.html?categoria=alarmas">Ver productos</a>
+                    </div>
+                <section>
+            </article>
+        </section>
+    </main>
+    <footer>   <!-- Pie de página. Ej info sobre nosotros, nuestros sitios-->
+
+        <section>
+            <a href="#titulo">Back to the begining  </a>          <!-- con href="#" solo puedo poner id-->
+
+            <a href="mailto:florprados@gmail.com">Send Email</a>        <!-- Porqué no va al mail? -->
+        </section>
+
+        <p class="footerp"> February 2023</p>
+    </footer>
+            
+</body>
+    

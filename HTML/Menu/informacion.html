@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+
+    <title>Camaras Frias</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/camara.ico">
+    <link rel="stylesheet" href="../../CSS/style.css" /> 
+    <link rel="stylesheet" href="../../CSS/footer.css" />
+    <link rel="stylesheet" href="../../CSS/form.css" />
+
+
+    <script src="https://kit.fontawesome.com/11a316946f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>  <!-- CABECERA. Para agrupar links, logos de our page, y podemos utilizar cuantas queramos-->
+
+        <img Id="logo" src="../../img/logo.png"/>    <!-- Id="titulo" para luego poder interactuar con esto. dar un diseño por ej--> 
+        <!-- en vez de id, puedo utlizar el atributo class para poder reutilizar ese identificador para seleccionar varias partes  
+        con CSS o JS y poder modificar-->
+        <nav>
+            <table>
+                <tr>
+                    <th><a href="../index.html"><div>Inicio</div></a></th>
+                    <th><a href="productos.html"><div>Productos</div></a></th>
+                    <th><a href="quienessomos.html"><div>¿Quiénes somos?</div></a></th>
+                    <th><a href="informacion.html"><div>Información</div></a></th>
+                    <th><a href="micuenta.html"><div>Mi cuenta</div></a></th>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <section class="secciones">  <!-- Define secciones -->
+            <article class="articulo">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Nulla non, dolorum dolor aliquam pariatur consectetur harum velit rem, nesciunt modi 
+                    alias quod temporibus sapiente illum esse vero dolore delectus eius?</p>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Nulla non, dolorum dolor aliquam pariatur consectetur harum velit rem, nesciunt modi 
+                    alias quod temporibus sapiente illum esse vero dolore delectus eius?</p>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Nulla non, dolorum dolor aliquam pariatur consectetur harum velit rem, nesciunt modi 
+                    alias quod temporibus sapiente illum esse vero dolore delectus eius?</p>    
+                <br> <h2> Para más información, ingrese sus datos y la consulta que desea realizar </h2>
+                    <form action="/formulario" method="post">
+                    <label> Nombre: </label>
+                    <input name="name" placeholder="Nombre" required=""/> <br>
+                    <label> Apellido: </label>
+                    <input name="surname" placeholder="Apellido" required=""/> <br>
+                    <label> Email: </label>
+                    <input type="email" placeholder="Email" /> <br>
+                    <label> Consulta: </label>
+                    <textarea name="consulta" rows="5" cols="90" placeholder="Escribe tu consulta aquí"></textarea> <br>
+                    <button type="reset"> Borrar todo </button>
+                    <button type="submit"> Enviar </button>
+                    <!-- Puedo incluir imágenes también en los botones-->
+                </form>
+            </article> 
+        </section>
+    </main>
+        <footer>   <!-- Pie de página. Ej info sobre nosotros, nuestros sitios-->
+
+            <section>
+                <a href="#logo">Back to the begining  </a>          <!-- con href="#" solo puedo poner id-->
+    
+                <a href="mailto:florprados@gmail.com">Send Email</a>        <!-- Porqué no va al mail? -->
+            </section>
+            <p class="footerp"> February 2023</p>
+        </footer>
+</body>
+    
